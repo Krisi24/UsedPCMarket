@@ -11,6 +11,8 @@ Guest, User and Admin
 
 During the creation of the application, I use springboot and mvc model. For the frontend I use Thymeleaf. For the DB I use MySQL.
 
+## navigation-plan:
 
+![navigation-plan](/documents/navigation-plan.drawio.png)
 
 
