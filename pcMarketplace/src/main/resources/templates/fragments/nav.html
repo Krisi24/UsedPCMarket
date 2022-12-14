@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 
 <html xmlns:th="http://www.thymeleaf.org">
-  <body>
+    <head th:fragment="metaAndLinks">
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a website for selling used pc or pc parts."/>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="icon" type="image/png"  th:href="@{img/logo.png}" />
+        <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+    </head>
+    <body>
 
     <nav  th:fragment="navigation">
         <a id="logo" href="#"><img src="img/logo.png" alt="PC Market"></a>
@@ -12,5 +23,5 @@
         </ul>
     </nav>
 
-  </body>
+    </body>
 </html>

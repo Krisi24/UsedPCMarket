@@ -3,6 +3,8 @@ This is a web application for selling used pc or pc parts.
 We distinguish between 3 users.
 Guest, User and Admin
 
+![preview](/documents/preview.png)
+
 ## Short Summary:
 * Spring Boot
 * mvc model
