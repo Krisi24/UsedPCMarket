@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>PC Market</title>
+    <title>Home | PC Market</title>
     <meta charset="UTF-8">
     <meta name="description" content="This is a website for selling used pc or pc parts."/>
 
@@ -14,11 +14,27 @@
 </head>
 <body>
     <header>
-        <h1 id="title">Main Page</h1>
         <div th:replace="~{ fragments/nav :: navigation}" ></div>
+        <div class="main-search">
+            <div class="box">
+                <a href="#"><img src="img/pc.jpg" alt="PC"></a>
+                <p class="title">PC</p>
+            </div>
+            <div class="box">
+                <a href="#"><img src="img/pc_parts.jpg" alt="PC parts"></a>
+                <p class="title">Hardware</p>
+            </div>
+            <div class="box">
+                <a href="#"><img src="img/mobile.jpg" alt="mobile"></a>
+                <p class="title">moible</p>
+            </div>
+            <div class="box">
+                <a href="#"><img src="img/console.jpg" alt="gaming console"></a>
+                <p class="title">gaming console</p>
+            </div>
+        </div>
     </header>
     <main>
-        <p>asd asd asd</p>
     </main>
     <footer>
     </footer>
